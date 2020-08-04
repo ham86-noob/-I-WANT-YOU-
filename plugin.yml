@@ -1,0 +1,42 @@
+name: TestPlugIn
+version: ${project.version}
+main: com.gmail.ham.testplugin.TestPlugIn
+api-version: 1.15
+
+commands:
+  setTpHost:
+    usage: /<Command>
+    description: set TpHost
+    permission: op
+    default-permission: op
+
+  getTpHost:
+    usage: /<Command>
+    description: get TpHost
+    permission: op
+    default-permission: op
+
+  tp:
+    usage: /<Command>
+    default: tp
+    permission: op
+    default-permission: op
+
+  chooseFamous:
+    usage: /<Command>
+    default: choose famous player
+    permission: op
+    default-permission: op
+
+  chooseNotFamous:
+    usage: /<Command>
+    default: choose not famous player
+    permission: op
+    default-permission: op
+
+  FamousList:
+    usage: /<Command>
+    default: list famouslevel
+    permission: op
+    default-permission: op
+
